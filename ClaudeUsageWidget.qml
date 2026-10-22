@@ -112,12 +112,12 @@ PluginComponent {
     }
 
     popoutWidth: 460
-    popoutHeight: 640
+    popoutHeight: 820
 
     popoutContent: Component {
         PopoutComponent {
             id: popout
-            headerText: "Claude Usage"
+            headerText: "Claude Daily Spend Estimate"
             detailsText: root.error || "Claude Code on this machine · API list prices · faint band = likely billed (+5-7%)"
             showCloseButton: true
 

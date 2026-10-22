@@ -4,7 +4,7 @@ Claude Code spend estimate for [DankMaterialShell](https://github.com/duxlabs-de
 computed locally and never sent anywhere. A bar widget that reads Claude Code's own
 session logs and prices the token usage at Anthropic API list prices.
 
-<!-- ![screenshot](assets/screenshot.png) -->
+![screenshot](assets/screenshot.png)
 
 - **Bar pill:** spend for today, the last 5 hours, the last 7 days or this month (configurable)
 - **Popout:** summary tiles, a 14-day bar chart, and this month's top models and projects
