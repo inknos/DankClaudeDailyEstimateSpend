@@ -1,0 +1,14 @@
+{
+    "id": "claudeDailyEstimateSpend",
+    "name": "Claude Daily Spend Estimate",
+    "description": "Claude Code spend estimate for DankMaterialShell, computed locally and never sent anywhere.",
+    "version": "0.1.0",
+    "author": "nsella",
+    "type": "widget",
+    "capabilities": ["dankbar-widget", "monitoring"],
+    "component": "./ClaudeUsageWidget.qml",
+    "icon": "payments",
+    "settings": "./ClaudeUsageSettings.qml",
+    "requires": ["python3"],
+    "permissions": ["settings_read", "settings_write"]
+}
